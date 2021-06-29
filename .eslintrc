@@ -2,6 +2,11 @@
   "extends": [
     "wesbos"
   ],
+  "settings": {
+    "import/resolver": {
+      "node": {} // placed above other resolver configs
+    }
+  },
   "rules": {
     "no-console": 2,
     "prettier/prettier": [
